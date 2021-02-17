@@ -90,6 +90,24 @@ header{
 header.activee{
   display: none;
 }
+header.move{
+  position: fixed;
+  top: 0;
+  left:0;
+  animation-name: show_header;
+  animation-duration: 1s;
+  background-color: #cf8900;
+}
+@keyframes show_header {
+  0%{
+    opacity: 0;
+    top: -70px;
+  }
+  100%{
+    opacity: 1;
+    top 0;
+  }
+}
 
 .header_text{
   font-style: oblique;
