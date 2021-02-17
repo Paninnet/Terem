@@ -9,10 +9,17 @@ function changeOrder() {
 }
 window.onscroll=function showHeader() {
   let a= document. querySelector('header')
-  if(window.pageYOffset > 100){
+  if(window.pageYOffset > 200){
     a.classList.add('move')
   }
   else {
     a.classList.remove('move')
   }
+}
+
+function closeModal() {
+  let a = document.querySelector('.modalWind_overlay')
+  let b =document.querySelector('body')
+  b.classList.toggle("activee")
+  a.classList.add('close')
 }
