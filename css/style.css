@@ -125,7 +125,6 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 }
 header.activee{
   display: none;
@@ -161,7 +160,7 @@ header.move{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid orange;
+
 
 }
 .section_item{
@@ -174,18 +173,18 @@ header.move{
 
 }
 .section_item:first-child{
-  background-color: #F7EC89;
+  background-color:rgb(2555,214,167) ;
 }
 .section_item:first-child.changeDir{
   order: 3;
 }
 .section_item:nth-child(2){
-  background-color: #FEED4A;
+  background-color: rgb(255,233,206);
   border: 1px dashed black;
 }
 
 .section_item:last-child{
-  background-color: #FEC14A;
+  background-color:rgb(207,196,184);
   order: 3
 }
 
