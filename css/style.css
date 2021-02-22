@@ -125,6 +125,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 header.activee{
   display: none;
@@ -240,4 +241,175 @@ footer {
     width: 100%;
     margin-bottom: 15px;
   }
+}
+
+/* --------------- Страница с выпадающими списками---------- */
+.list_main_section{
+  background-image: url(../img/fon.png);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+.list_main_section_content{
+  width: 45%;
+  min-height: 100vh;
+  background-color: rgba(43, 38, 38, 0.8);
+}
+.checklist_content{
+
+  width: 50%;
+  margin: 0 auto;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.checklist_content_item{
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  margin:25px 0px 25px 63px;
+}
+.checklist_content_item p{
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #DEDEDE;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #E54849;
+}
+/* .checklist_content_wrap{
+  position: relative;
+}
+.checklist_content_item span{
+  color: #f1f1f1;
+}
+.arrow{
+background: transparent;
+position: relative;
+}
+.arrow::before, .arrow::after{
+  content: "";
+  width: 35px;
+  height: 3px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  left: -45px;
+
+}
+
+.arrow::before{
+  top: 8px;
+  transform: rotate(12deg);
+  transition-duration: 1s;
+
+}
+.arrow::after{
+  bottom: 8px;
+  transform: rotate(-12deg);
+  transition-duration: 1s;
+}
+.arrow.change::before{
+  transform: rotate(45deg);
+  top: 18px;
+  transition-duration: 1s;
+}
+.arrow.change::after{
+  transform: rotate(-45deg);
+  transition-duration: 1s;
+}
+
+
+
+.drop_dowm{
+  position: absolute;
+  background-color: #fff;
+  right: -107px;
+  top: 0px;
+  box-shadow: 5px 5px 10px white;
+  display: none;
+}
+
+.drop_dowm.open {
+  display: block;
+}
+.select{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.select .option{
+  list-style-type: none;
+}
+.option{
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #292123;
+  width: 100px;
+  padding: 7px;
+  cursor: pointer;
+}
+.option.active {
+  background-color: tomato;
+}
+.option:hover{
+  background-color: rgb(113, 122, 122);
+}
+.option:active{
+  background-color: rgb(113, 122, 122);
+  box-shadow: 3px 3px 10px black;
+} */
+.city{
+  width: 50px;
+}
+.option{
+  border-bottom: 1px solid silver;
+}
+.select_text{
+  color: grey;
+}
+span{
+  color:white;
+}
+.input{
+  background: #FEFBF8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-size: 21px;
+  color: #A2A1A0;
+  padding: 15px 0px 15px 55px;
+
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.input1{
+  background-image: url(../img/pro.png);
+}
+.input2{
+  background-image: url(../img/phone.png);
+}
+.button{
+  filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.4));
+  background: #950709;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  height: 59px;
+}
+.button:hover{
+  box-shadow: 3px 3px 5px white;
+}
+.button:active{
+  box-shadow: 10px 10px 10px black;
+  position: relative;
+  top: 5px;
+}
+.result{
+  color: white;
 }
