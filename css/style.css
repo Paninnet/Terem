@@ -217,7 +217,6 @@ footer {
   box-shadow: 3px 3px 10px black;
 }
 .my_button:active{
-  /* box-shadow: 5px 5px 10px black; */
   position: relative;
   top:5px;
 }
@@ -282,90 +281,10 @@ footer {
   margin-bottom: 0px;
   border-bottom: 1px solid #E54849;
 }
-/* .checklist_content_wrap{
-  position: relative;
-}
-.checklist_content_item span{
-  color: #f1f1f1;
-}
-.arrow{
-background: transparent;
-position: relative;
-}
-.arrow::before, .arrow::after{
-  content: "";
-  width: 35px;
-  height: 3px;
-  display: block;
-  background-color: white;
-  position: absolute;
-  left: -45px;
 
-}
-
-.arrow::before{
-  top: 8px;
-  transform: rotate(12deg);
-  transition-duration: 1s;
-
-}
-.arrow::after{
-  bottom: 8px;
-  transform: rotate(-12deg);
-  transition-duration: 1s;
-}
-.arrow.change::before{
-  transform: rotate(45deg);
-  top: 18px;
-  transition-duration: 1s;
-}
-.arrow.change::after{
-  transform: rotate(-45deg);
-  transition-duration: 1s;
-}
-
-
-
-.drop_dowm{
-  position: absolute;
-  background-color: #fff;
-  right: -107px;
-  top: 0px;
-  box-shadow: 5px 5px 10px white;
-  display: none;
-}
-
-.drop_dowm.open {
-  display: block;
-}
-.select{
-  padding-left: 0px;
-  margin-bottom: 0px;
-}
-.select .option{
-  list-style-type: none;
-}
-.option{
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0.02em;
-  color: #292123;
-  width: 100px;
-  padding: 7px;
-  cursor: pointer;
-}
-.option.active {
-  background-color: tomato;
-}
-.option:hover{
-  background-color: rgb(113, 122, 122);
-}
-.option:active{
-  background-color: rgb(113, 122, 122);
-  box-shadow: 3px 3px 10px black;
-} */
 .city{
   width: 50px;
+
 }
 .option{
   border-bottom: 1px solid silver;

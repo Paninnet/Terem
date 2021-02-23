@@ -48,7 +48,6 @@ function send() {
     res.innerHTML=""
 
   }
-
   else {
     store.select1=a
     store.select2=b
@@ -61,100 +60,3 @@ function send() {
   }
 
 }
-
-
-
-// let x=document.querySelectorAll('.city')
-// let select_value = document.querySelector('.city').onchange =function () {
-//
-//   alert(document.querySelector('.city').value);
-// }
-
-
-// function select(block= document.querySelector('.first'),arrow= document.querySelector('.arrow')) {
-//   // block.classList.toggle("open")
-//   arrow.classList.toggle('change')
-// }
-//
-// function selectb(block= document.querySelector('.second'),arrow= document.querySelector('.ar2')) {
-//   // block.classList.toggle("open")
-//   arrow.classList.toggle('change')
-// }
-
-// function selectb() {
-//   let b =document.querySelector('.second')
-//   b.classList.toggle("open")
-//   let reverseArrow= document.querySelector('.arrow')
-//   reverseArrow.classList.toggle('change')
-// }
-
-// var store = {
-//   select1: null,
-//   select2: null,
-//   select3: null,
-//   select4: null,
-//   select5: null,
-//   input1: '',
-//   input2: ''
-// }
-//
-// $('.checklist_content_item').click(function () {
-//   if ($(this).next('.drop_dowm').hasClass('open')) {
-//     $(this).next('.drop_dowm').removeClass('open')
-//     $(this).children('.arrow').removeClass('change')
-//   } else {
-//     $('.drop_dowm.open').removeClass('open')
-//     $('.arrow.change').removeClass('change')
-//
-//     $(this).next('.drop_dowm').addClass('open')
-//     $(this).children('.arrow').addClass('change')
-//   }
-// })
-//
-// $('.option').click(function () {
-//   $(this).siblings('.active').removeClass('active')
-//   $(this).addClass('active')
-//
-//   store[$(this).siblings('.store').text()] = $(this).text()
-//
-//   console.log(store)
-// })
-//
-// $('.input').on('input', function () {
-//   console.log($(this).attr('class'))
-//   var name = $(this).attr('class').split(' ')[1]
-//
-//   store[name] = $(this).val()
-//
-//   console.log(store)
-// })
-//
-// $('.send').click(function () {
-//   //сделать валидацию
-//   var data = JSON.stringify(store)
-//
-//   try {
-//     getRequest()
-//   } catch (err) {
-//     console.log(err)
-//   } finally {
-//     $('.result').text(data)
-//   }
-//
-// })
-
-// async function getRequest (data) {
-//
-//     return new Promise(function(resolve, reject) {
-//       var xhr = new XMLHttpRequest
-//       xhr.onload = function() {
-//         resolve(new Response(xhr.responseText, {status: xhr.status}))
-//       }
-//       xhr.onerror = function() {
-//         reject(new TypeError('Local request failed'))
-//       }
-//       xhr.open('GET', 'file:///C:/Users/Ксения/Desktop/Terem/server.html')
-//       xhr.send(null)
-//     })
-//
-// }
